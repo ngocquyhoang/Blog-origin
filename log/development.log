@@ -53588,3 +53588,16 @@ Started GET "/assets/bg_head.jpg" for 127.0.0.1 at 2015-10-08 11:08:00 +0700
 
 
 Started GET "/assets/down.png" for 127.0.0.1 at 2015-10-08 11:08:00 +0700
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-10-08 11:13:24 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered users/registrations/new.html.erb within layouts/application (20.9ms)
+Completed 200 OK in 420ms (Views: 391.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/bg_head.jpg" for 127.0.0.1 at 2015-10-08 11:13:25 +0700
+
+
+Started GET "/assets/down.png" for 127.0.0.1 at 2015-10-08 11:13:25 +0700
